@@ -1,0 +1,3 @@
+1. File hacker.py chạy riêng, là file sẽ cung cấp khóa public của hacker. Nếu chạy nó trên máy ảo thì thay ip trong file main.py thành ip của máy ảo. Phải chạy file hacker.py trước khi chạy bất kỳ file nào khác
+2. Code này sẽ mã hóa mọi thứ thư mục TEST nằm trong đường dẫn: C:\Users\<tên>\TEST  với <tên> là user. Có thể đổi đường dẫn trong file victim.py hàm list_all_files()
+3. Chép private key của hacker nhớ chừa b'' Chỉ chép phần bên trong. T không decode ra nhìn xuống dòng  cho đẹp vì nó cần \n trong chuỗi 
